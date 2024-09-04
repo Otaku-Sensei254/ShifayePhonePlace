@@ -1,0 +1,114 @@
+.Infinix-container{
+    position: relative;
+    right: 12rem;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+@media (max-width:321px){
+    .Infinix-container{
+      position: absolute;
+    right: 38rem;
+    top: 5rem;
+    display: grid;
+    grid-template-columns: repeat(1 ,1fr);    
+    }
+    .saka3{
+      position: absolute;
+      left: -13rem;
+      width: 15rem;
+    }
+    
+}
+@media (min-width:360px){
+  .Infinix-container{
+    position: absolute;
+  left: -30rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(1 ,1fr);   
+  gap: 0 2rem; 
+  }
+  .saka3{
+    position: absolute;
+    left: -13rem;
+    width: 15rem;
+  }
+}
+@media (min-width:600px){
+  .Infinix-container{
+    position: absolute;
+  right: 88rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);    
+  }
+  .saka3{
+    position: absolute;
+    left: -13rem;
+    width: 15rem;
+  }
+}
+
+@media (min-width:375px){
+  .Infinix-container{
+    position: absolute;
+  right:88rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(1 ,1fr);    
+  }
+  .saka3{
+    position: absolute;
+    left: -13rem;
+    width: 15rem;
+  }
+  
+}
+@media (min-width:768px){
+  .Infinix-container{
+    position: absolute;
+  right:69rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(2 ,1fr); 
+  gap: 0 2px;   
+  }
+  .saka3{
+    position: absolute;
+    left: -13rem;
+    width: 15rem;
+  }
+  
+}
+@media (min-width:1024px){
+  .Infinix-container{
+    position: absolute;
+  right:45rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3 ,1fr); 
+  gap: 0 2px;   
+  }
+  .saka3{
+    position: absolute;
+    left: 6rem;
+    width: 15rem;
+  }
+  
+}
+@media (min-width:1440px){
+  .Infinix-container{
+    position: absolute;
+  right:36rem;
+  top: 5rem;
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr); 
+  gap: 0 2px;   
+  }
+  .saka3{
+    position: absolute;
+    left: 6rem;
+    width: 15rem;
+  }
+  
+}

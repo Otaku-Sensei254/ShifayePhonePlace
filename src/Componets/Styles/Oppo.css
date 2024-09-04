@@ -1,0 +1,139 @@
+.saka{
+   position: relative;
+}
+.oppo-container{
+    position: relative;
+    left: -76rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: auto;
+    gap: 0 15rem;
+}
+@media (max-width:321px){
+    .oppo-container{
+        position: absolute;
+        left: -17.5rem;
+        top: 13rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 0 6rem;
+    }
+    .saka{
+        position: relative;
+        left: 0rem;
+        font-size: 18px;
+        top: 3rem;
+        width: 10rem;
+    }
+    .saka:hover{
+        width: 12rem;
+        transition: 2s ease-in-out;
+    }
+    .popular .ph1{
+        position: relative;
+        right: 2rem;
+    }
+}
+@media (min-width:360px){
+    .oppo-container{
+        position: absolute;
+        left: -18rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 0 8rem;
+    }
+    .saka{
+        position: relative;
+        left: 2rem;
+        font-size: 18px;
+        top: 3rem;
+    }
+}
+@media (min-width:375px){
+    .oppo-container{
+        position: absolute;
+        left: -18rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 0 10rem;
+    }
+    .saka{
+        position: relative;
+        left: 2rem;
+        font-size: 18px;
+        top: 3rem;
+    }
+}
+@media (min-width:600px){
+    .oppo-container{
+        position: absolute;
+        left: -18rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 0 10rem;
+    }
+    .saka{
+        position: relative;
+        left: 2rem;
+        font-size: 18px;
+        top: 3rem;
+    }
+}
+@media (min-width:430px){
+    .oppo-container{
+        position: absolute;
+        left: -16rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto;
+        gap: 0 10rem;
+    }
+    .saka{
+        position: relative;
+        left: 2rem;
+        font-size: 18px;
+        top: 3rem;
+    }
+}
+@media (min-width:768px){
+    .oppo-container{
+        position: absolute;
+        left: -16rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: auto;
+        gap: 0 10rem;
+    }
+    .saka{
+        position: relative;
+        left: 2rem;
+        font-size: 18px;
+        top: 3rem;
+    }
+}
+@media (min-width:1024px){
+    .oppo-container{
+        position: absolute;
+        left: -10rem;
+        top: 5rem;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: auto;
+        gap: 0 10rem;
+    }
+    .saka{
+        position: relative;
+        left: 15rem;
+        font-size: 18px;
+        top: 4rem;
+    }
+}

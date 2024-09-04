@@ -1,0 +1,110 @@
+.acc-container{
+    position: relative;
+    top: 5rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 8rem;
+}
+ .acc-h1{
+    text-decoration: underline;
+    color: rgba(100, 114, 20, 0.612);
+    position: absolute;
+    align-items: center;
+    left: 35rem;
+}
+@media (max-width:321px){
+.acc-container{
+    position: absolute;
+    top: 15rem;
+    left: -3rem;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    gap: 0 7rem;
+}
+.acc-h1{
+    position:absolute;
+    left: 1rem;
+    font-size: 29px;
+}
+}
+@media (min-width:375px){
+    .acc-container{
+        position: absolute;
+        top: 15rem;
+        left: -3rem;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 0 8rem;
+    }
+    .acc-h1{
+        position:absolute;
+        left: 1rem;
+        font-size: 29px;
+    }
+}@media (min-width:425px){
+    .acc-container{
+        position: absolute;
+        top: 15rem;
+        left: -3rem;
+        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 0 8rem;
+    }
+    .acc-h1{
+        position:absolute;
+        left: 1rem;
+        font-size: 29px;
+    }
+}
+@media (min-width:375px){
+    .acc-container{
+        position: absolute;
+        top: 15rem;
+        left:-1rem;
+         justify-content: center;
+         display: grid;
+      grid-template-columns: repeat(2 ,1fr);
+        gap: 0 8rem;
+        }
+        .acc-h1{
+            position:absolute;
+            left: 1rem;
+            font-size: 29px;
+        }
+}
+@media (min-width:768px){
+    .acc-container{
+        position: absolute;
+        top: 15rem;
+        left:-1rem;
+         justify-content: center;
+         display: grid;
+      grid-template-columns: repeat(4 ,1fr);
+        gap: 0 8rem;
+        }
+        .acc-h1{
+            position:absolute;
+            left: 1rem;
+            font-size: 29px;
+        }
+}
+@media (min-width:1024px){
+    .acc-container{
+        position: absolute;
+        top: 15rem;
+        left:1rem;
+         justify-content: center;
+         display: grid;
+      grid-template-columns: repeat(4 ,1fr);
+        gap: 0 13rem;
+        }
+        .acc-h1{
+            position:absolute;
+            left: 1rem;
+            font-size: 29px;
+        }
+}

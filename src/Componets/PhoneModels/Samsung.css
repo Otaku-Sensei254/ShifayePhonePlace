@@ -1,0 +1,189 @@
+.result-template{
+    position: relative;
+    left: 18rem;
+    grid-template-columns: repeat(auto-fill ,minmax(250px, 1fr));
+    gap: 4rem;
+}
+.result-template:hover{
+    transform: scale(1.1);
+    transition: 1.073s ease-in-out;
+}
+.video-link{
+    position: absolute;
+    top: 23rem;
+    left: 5rem;
+    font-size: 3rem;
+}
+.new{
+    color: red;
+}
+.old{
+    color: grey;
+    text-decoration: line-through;
+}
+.sm-search{
+    position: relative;
+    left: 4rem;
+    top: -9rem;
+}
+.ad-cart{
+    height: 3rem;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.sm-search{
+    position: relative;
+    top: 3rem;
+}
+.popular1{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+}
+@media (max-width:321px){
+    .popular1{
+        position: absolute;
+        right: 0rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        left: 17.5rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 6rem;
+    }
+    .sam-h2{
+        position: relative;
+        left: 25rem;
+        display: flex;
+        top: -2rem;
+    }
+}
+@media (min-width:375px){
+    .popular1{
+        position: absolute;
+        right: 1rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        right: 11rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 7rem;
+    }
+    .sam-h2{
+        position: relative;
+        left: 25rem;
+        display: flex;
+        top: -2rem;
+    }
+}
+@media (min-width:360px){
+    .popular1{
+        position: absolute;
+        right: 0rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        left: 18rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 7rem;
+    }
+     .sam-h2{
+        position: relative;
+        right: -6rem;
+    }
+}
+@media (min-width:425px){
+    .popular1{
+        position: absolute;
+        right: 0rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 9rem;
+    }
+    .sam-h2{
+        position: relative;
+        left: 25rem;
+    }
+}
+@media (min-width:430px){
+    .popular1{
+        position: absolute;
+        right: 0rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 7rem;
+        left: 16rem;
+    }
+    .sam-h2{
+        position: relative;
+        left: 20rem;
+    }
+}
+@media (min-width:600px){
+    .popular1{
+        position: absolute;
+        right: 5rem;
+        top: 10rem;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .Samsung{
+        position: absolute;
+        top: 15rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0 7rem;
+        left: 2rem;
+    }
+    .sam-h2{
+        position: relative;
+        left: 20rem;
+    }
+}
+@media (min-width:1024px){
+    .popular1{
+        position: absolute;
+        top: 13rem;
+    }
+    .Samsung{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media (min-width:1440px){
+    .Samsung{
+        position: absolute;
+        left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 0 5rem;
+    }
+}

@@ -1,0 +1,111 @@
+.Tecno-container{
+    position: relative;
+    left: -8rem;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+}
+.saka2{
+    position: absolute;
+    top: -6rem;
+    left: 35rem;
+}
+@media(max-width:321px){
+   .Tecno-container {
+    position: absolute;
+    left: -34rem;
+    top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+   }
+   .saka2{
+    position: absolute;
+    font-size: 19px;
+    left: -15rem;
+    top:3rem;
+    width: 10rem;
+   }
+   .saka2:hover{
+    width: 12rem;
+   }
+}
+@media(min-width:360px){
+    .Tecno-container {
+     position: absolute;
+     left: -34rem;
+     top: 10rem;
+     display: grid;
+     grid-template-columns: repeat(1, 1fr);
+     grid-template-rows: auto;
+    }
+    .saka2{
+     position: absolute;
+     font-size: 19px;
+     left: -15rem;
+     top:3rem;
+    }
+ }
+@media(min-width:375px){
+   .Tecno-container {
+    position: absolute;
+    left: -34rem;
+    top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+   }
+   .saka2{
+    position: absolute;
+    font-size: 19px;
+    left: -15rem;
+    top:3rem;
+   }
+}
+@media(min-width:425px){
+   .Tecno-container {
+    position: absolute;
+    left: -30rem;
+    top: 10rem;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+   }
+   .saka2{
+    position: absolute;
+    font-size: 19px;
+    left: -15rem;
+    top:3rem;
+   }
+}
+@media (min-width:768px){
+    .Tecno-container{
+        display: grid;
+        position: absolute;
+        left: -30rem;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 1rem;
+    }
+}
+@media (min-width:1024px){
+    .Tecno-container{
+        position: absolute;
+        display: grid;
+        left: -34rem;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0 0;
+    }
+    .saka2{
+        position: absolute;
+        left: 10rem;
+    }
+}
+@media (min-width:1440px){
+    .Tecno-container{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        
+        
+    }
+}

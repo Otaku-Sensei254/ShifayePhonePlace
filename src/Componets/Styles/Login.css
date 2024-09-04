@@ -1,0 +1,155 @@
+.Login-page{
+    margin-left:1rem;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: #f79d00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.login{ 
+    height: 400px;
+    padding: 2rem 25rem;
+    box-shadow: 2px 4px -8px black;
+}
+form{
+    text-align: center;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding-bottom: 1rem;
+    padding: 14px;
+    padding-top: 2px;
+}
+form input{
+    background-color:white;
+    padding: 4px 10px;
+    height: 25px;
+    color: black;
+
+}
+form input:hover{
+    background: #f79d00;
+
+    color: white;
+    font-weight: 500;
+
+}
+.enter{
+    position: relative;
+    left: 2rem;
+    top: 0rem;
+}
+.Check{
+    display: flex;
+    position: relative;
+    top: 4rem;
+    left: -7rem;
+    cursor: pointer;
+}
+form p{
+    position: relative;
+    top:3rem;
+    right: 8rem;
+}
+.Login2{
+   background: red;
+   position: relative;
+   top: -6rem;
+   left: 7rem;
+   width: 10rem;
+}
+.Login2:hover{
+    transform: scale(1.1);
+    transition: 1s ease-in-out;
+}
+.Signup{
+    position: relative;
+    top: -2rem;
+    text-decoration: underline;
+}
+@media (max-width:321px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 60%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -18rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}
+@media (max-width:376px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 60%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -18rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}
+@media (max-width:426px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 70%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -15rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}@media (max-width:769px){
+    .Login-page{
+        position: relative;
+        left: -3rem;
+        top: 1rem;
+        width: 70%;
+        height: 150%;
+    }
+    .login{
+        position: relative;
+        left: -15rem;
+        top: 5rem;
+        width: 60%;
+    }   
+    input{
+        font-size: 30px;
+    }
+    form a{ 
+        font-size: 28px;
+    }
+}

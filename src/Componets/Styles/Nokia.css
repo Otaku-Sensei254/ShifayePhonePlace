@@ -1,0 +1,252 @@
+h2{
+    position: relative;
+    left: 2rem;
+}
+.Nokia-container{
+    position: relative;
+    right: 7rem;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    position: relative;
+    gap: 0 20rem;
+    
+}
+.saka3{
+    position: absolute;
+    top: -6rem;
+    
+}
+.hr{
+    position: relative;
+    left: -35rem;
+    width: 15rem;
+}
+@media (max-width:321px){
+    .nokia-p{
+        position: relative;
+        left: -20rem;
+        color: red;
+    }
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 6rem;
+        top: 6rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: 2rem;
+    }
+    .saka3{
+        position:absolute;
+        left: 0rem;
+        top: 3rem;
+        width: 10rem;
+        font-size: 12px;
+    }
+    .saka3:hover{
+        width: 12rem;
+    }
+}
+@media (min-width:360px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        left: 0rem;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 5rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: -2rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        width: 10rem;
+        }
+        .popular h2{
+            position: absolute;
+            top: -3rem;
+            left:-14rem;
+            
+        }
+    
+}
+@media (min-width:375px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 10rem;
+        left: -3rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: -4rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .nokia-p{
+            position: absolute;
+            top: -3rem;
+            
+        }
+    
+}
+@media(min-width:425px){
+     .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 10rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        left: -15rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .nokia-p{
+            position: absolute;
+            top: -3rem;
+            
+        }
+    
+}
+@media (min-width:430px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 0 10rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: -3rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .nokia-p{
+            position: absolute;
+            top: -3rem;
+            
+        }
+}
+@media (min-width:600px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0 9rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: 0rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .nokia-p{
+            position: absolute;
+            top: -3rem;
+            
+        }
+}
+
+@media (min-width:768px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 0 10rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: 3rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .nokia-p{
+            position: absolute;
+            top: -3rem;
+            
+        }
+}
+@media (min-width:1024px){
+    .Nokia{
+        position: absolute;
+        left: 1rem;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 0 10rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: 22rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .popular h2{
+            position: absolute;
+            top: 1rem;
+            
+        }
+}
+@media (min-width:1440px){
+    .Nokia{
+        position: absolute;
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 0 10rem;
+    }
+    .Nokia-container{
+        position: absolute;
+        right: 35rem;
+        top: 6rem;
+    }
+    .saka3{
+        position: absolute;
+        left: -10rem;
+        font-size: 19px;
+        top: 3rem;
+        }
+        .popular h2{
+            position: absolute;
+            top: 1rem;
+            
+        }
+}
