@@ -17,7 +17,8 @@ import {Link} from 'react-router-dom'
 const Footer = () => {
   return (
     <>
-        <div className="footer-section">
+        <div className="myfooter">
+          <div className="footer-section">
           <Link to="/"><img className="Fl"src={Logo} alt="" /></Link>
             <div className="footer-left">
               <h1>Get in touch <FaPhone/></h1>
@@ -59,6 +60,8 @@ const Footer = () => {
                 </div>
             </div>
         </div>
+        </div>
+        
     </>
   )
 }

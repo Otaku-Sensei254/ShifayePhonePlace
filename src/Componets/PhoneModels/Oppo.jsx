@@ -18,7 +18,8 @@ const Oppo = () => {
     <Navbar/>
     <PhoneNavBar/><MobileNav/>
     <PhoneBar/>
-    <input className="saka"type='text' placeholder='search phone.....'onChange={(e)=>{
+    <div className="Oppo-container">
+       <input className="saka"type='text' placeholder='search phone.....'onChange={(e)=>{
     setSearchTerm(e.target.value);
   }}/>
     <div className="popular">
@@ -50,6 +51,8 @@ const Oppo = () => {
               </div>
         
     </div>
+    </div>
+   
     </>
   )
 }

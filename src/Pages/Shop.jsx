@@ -36,8 +36,8 @@ const Shop = () => {
     <PhoneNavBar/>
     <PhoneBar/>
     
-   
-      <h2 className='hot'> Hot Products On Offer!!!🔥🔥</h2>
+   <div className="shop-container">
+     <h2 className='hot'> Hot Products On Offer!!!🔥🔥</h2>
     <div className="on-sale-products">
           <div className="item-sale-1">
             <img src={OPPO} alt="" />
@@ -123,6 +123,8 @@ const Shop = () => {
                        
        
       </div>
+   </div>
+     
      
     </>
   )

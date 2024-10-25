@@ -1,6 +1,9 @@
 .saka{
    position: relative;
 }
+.Oppo-container{
+    overflow: hidden;
+}
 .oppo-container{
     position: relative;
     left: -76rem;
@@ -8,6 +11,9 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: auto;
     gap: 0 15rem;
+}
+.popular-item{
+    overflow: hidden;
 }
 @media (max-width:321px){
     .oppo-container{

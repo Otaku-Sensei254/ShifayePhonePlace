@@ -58,6 +58,7 @@
 
  @media (max-width:321px){
     .offers{
+        position: relative;
         width: 38%;
         left: -4rem;
         

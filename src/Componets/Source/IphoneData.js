@@ -23,6 +23,7 @@ import i14plus from '../Assets/iPhones/i14plus.jpeg'
 import i14Star from '../Assets/iPhones/i14starlight.jpeg'
 import i15Plus from '../Assets/iPhones/i15Plus.jpeg'
 import iBanner from '../Assets/iPhones/iBanner.jpeg'
+import Mc13 from '../Assets/iPhones/MC13.jpeg'
 let iphone_product =[
     {
         id:1,
@@ -182,14 +183,14 @@ let iphone_product =[
     {
         id:23,
         name:" MacBook Air M1 13.3 inch",
-        image:"https://th.bing.com/th?id=OIF.maEG9Ubf9TApse%2fOaLJvTA&w=170&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        image:{Mc13},
         new_price:"92,000",
         old_price:"102,000",
     },
     {
         id:24,
         name:"MacBook Air M2 13.6 inch",
-        image:"https://th.bing.com/th/id/OIF.VoCj56xQ1DX9EZKmSZjcwA?w=180&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        image:"https://shorturl.at/5x6rt",
         new_price:"120,000",
         old_price:"130,000",
         details:"13.6 inch 256GB/8GB",
