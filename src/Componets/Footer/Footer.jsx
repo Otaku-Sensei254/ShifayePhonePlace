@@ -4,6 +4,7 @@ import './Footer.css'
 import { FaWhatsapp } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { IoLogoFacebook } from "react-icons/io5";
+import { Link } from 'react-router-dom';
 export default function App() {
   return (
     <MDBFooter className='footer2'>
@@ -63,19 +64,19 @@ export default function App() {
               <ul>
                 <h6>Our socials</h6>
                 <li>
-                  <a href="https://wa.me/+254746429881"><FaWhatsapp className='icon1'/>+254 746 429881</a>
+                  <Link to="https://wa.me/+254746429881"><FaWhatsapp className='icon1'/>+254 746 429881</Link>
                 </li>
                 <li>
-                  <a href="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet"><FaInstagram className='icon2'/>Shifaye Instagram</a>
+                  <Link to="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet"><FaInstagram className='icon2'/>Shifaye Instagram</Link>
                 </li>
                 <li>
-                  <a href="https://web.facebook.com/shifayeee"><IoLogoFacebook className='icon3'/>Shifaye FaceBook</a>
+                  <Link to="https://web.facebook.com/shifayeee"><IoLogoFacebook className='icon3'/>Shifaye FaceBook</Link>
                 </li>
               </ul>
             </MDBCol>
 
             <MDBCol md='4' lg='3' xl='3' className='locate'>
-              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <h6 className='text-uppercase fw-bold mb-4'>Locate Us</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
                 Nairobi , Along Luthuli Avenue Dawa house
