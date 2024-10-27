@@ -88,7 +88,6 @@
     position: relative;
     width: 92%;
     left: -4rem;
-    border: 2px red solid;
   }
   .offers h1 {
     position: relative;
@@ -107,7 +106,6 @@
     width: 94%;
     left: -4rem;
     top: -1rem;
-    border: 2px red solid;
   }
   .offers h1 {
     position: relative;
@@ -126,7 +124,6 @@
     width: 93%;
     left: -4rem;
     top: -3rem;
-    border: 2px red solid;
   }
   .offers h1 {
     position: relative;
@@ -145,7 +142,6 @@
     width: 93%;
     left: -4rem;
     top: -1rem;
-    border: 2px red solid;
   }
   .offers h1 {
     position: relative;
@@ -158,13 +154,50 @@
     left: 0rem;
   }
 }
+@media (min-height: 480px) {
+  .offers {
+    position: relative;
+    width: 93%;
+    left: -4rem;
+    top: -1rem;
+    height: 43%;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
+}
+@media (min-width: 600px) {
+  .offers {
+    position: relative;
+    width: 97%;
+    left: -4rem;
+    top: 0rem;
+    height: 60%;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    left: 0rem;
+  }
+}
 @media (min-width: 768px) {
   .offers {
     position: relative;
     width: 97%;
     left: -4rem;
     top: 0rem;
-    border: 2px red solid;
     height: 55%;
   }
   .offers h1 {
@@ -184,8 +217,7 @@
     width: 97%;
     left: -4rem;
     top: 0rem;
-    border: 2px red solid;
-    height: 40%;
+    height: 48%;
   }
   .offers h1 {
     position: relative;
@@ -204,7 +236,6 @@
     width: 97%;
     left: -4rem;
     top: 0rem;
-    border: 2px red solid;
   }
   .offers h1 {
     position: relative;

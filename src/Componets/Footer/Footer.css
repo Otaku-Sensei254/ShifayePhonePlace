@@ -200,7 +200,42 @@
     font-size: 30px;
   }
 }
-
+@media (min-width: 600px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .myFoot .contact2 li {
+    list-style: none;
+  }
+  .myFoot .contact2 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
 @media (min-width: 768px) {
   .footer2 {
     background: #f79d00; /* fallback for old browsers */

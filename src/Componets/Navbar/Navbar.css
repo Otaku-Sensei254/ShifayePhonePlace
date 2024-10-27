@@ -143,7 +143,7 @@
   .call-icon {
     position: absolute;
     top: -3rem;
-    right: 0rem;
+    right: -1rem;
   }
   .call-btn {
     position: relative;
@@ -153,7 +153,17 @@
     border: 2px green solid;
   }
   .call-btn .head-no {
+    font-size: 18px;
     color: #0a3901d3;
+  }
+  .call-us p {
+    background: rgba(66, 116, 10, 0.63);
+    position: relative;
+    text-align: justify;
+    display: flex;
+    font-size: 15px;
+    padding: 2px 2px;
+    border: 2px rgb(15, 14, 14) solid;
   }
   .login-cart {
     display: none;
@@ -179,7 +189,7 @@
     font-size: 12px;
   }
   .phone-no .head-no {
-    font-size: 40px;
+    font-size: 28px;
   }
 }
 @media (min-width: 344px) {
@@ -241,7 +251,68 @@
   .call-icon {
     position: absolute;
     top: -3rem;
-    right: -2rem;
+    right: -5rem;
+  }
+  .call-btn {
+    position: relative;
+    font-size: 1px;
+    padding: 2px 4px;
+    background: rgba(80, 139, 88, 0.183);
+    border: 2px green solid;
+  }
+  .call-btn .head-no {
+    color: #0a3901d3;
+  }
+  .call-us {
+    position: relative;
+  }
+  .call-us p {
+    background: rgba(66, 116, 10, 0.63);
+    position: relative;
+    text-align: justify;
+    display: flex;
+    font-size: 15px;
+    padding: 2px 2px;
+    border: 2px rgb(15, 14, 14) solid;
+  }
+  .login-cart {
+    display: none;
+    position: absolute;
+    left: 8rem;
+    font-size: 10px;
+    top: 1rem;
+  }
+  .logo {
+    width: 40%;
+    height: 10%;
+  }
+  .nav-logo p {
+    display: none;
+  }
+  .phone-no {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 12px;
+  }
+  .phone-no .head-no {
+    font-size: 40px;
+  }
+}
+@media (min-width: 375px) {
+  .navbar {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .call-icon {
+    position: absolute;
+    top: 0rem;
+    right: 2rem;
   }
   .call-btn {
     position: relative;
@@ -372,6 +443,104 @@
   }
   .logo {
     width: 40%;
+    height: 10%;
+  }
+  .nav-logo p {
+    display: none;
+  }
+  .phone-no {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 12px;
+  }
+  .phone-no .head-no {
+    font-size: 40px;
+  }
+}
+@media (min-width: 480px) {
+  .navbar {
+    width: 90%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .call-icon {
+    position: absolute;
+    top: 0rem;
+    right: -2rem;
+  }
+  .call-btn {
+    position: relative;
+    font-size: 1px;
+    padding: 2px 4px;
+    background: rgba(80, 139, 88, 0.183);
+    border: 2px green solid;
+  }
+  .call-btn .head-no {
+    color: #0a3901d3;
+  }
+  .login-cart {
+    display: none;
+    position: absolute;
+    left: 8rem;
+    font-size: 10px;
+    top: 1rem;
+  }
+  .logo {
+    width: 40%;
+    height: 10%;
+  }
+  .nav-logo p {
+    display: none;
+  }
+  .phone-no {
+    display: block;
+    position: absolute;
+    top: 4rem;
+    left: 2rem;
+    width: 15rem;
+    text-align: center;
+    font-size: 12px;
+  }
+  .phone-no .head-no {
+    font-size: 40px;
+  }
+}
+@media (min-width: 600px) {
+  .navbar {
+    width: 95%;
+  }
+  .nav-links {
+    display: none;
+  }
+  .call-icon {
+    position: absolute;
+    top: -3rem;
+    right: -20rem;
+  }
+  .call-btn {
+    position: relative;
+    font-size: 1px;
+    padding: 2px 4px;
+    background: rgba(80, 139, 88, 0.183);
+    border: 2px green solid;
+  }
+  .call-btn .head-no {
+    color: #0a3901d3;
+  }
+  .login-cart {
+    display: none;
+    position: absolute;
+    left: 8rem;
+    font-size: 10px;
+    top: 1rem;
+  }
+  .logo {
+    width: 30%;
     height: 10%;
   }
   .nav-logo p {
