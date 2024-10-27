@@ -45,19 +45,19 @@ export default function App() {
             <MDBCol md='3' lg='2' xl='2' className='list2'>
               <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
               <p>
-                <a href='/Products' className='text-reset'>
+                <Link to='/Products' className='text-reset'>
                   Pricing
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/Contact' className='text-reset'>
+                <Link to='/Contact' className='text-reset'>
                   Orders
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/Contact' className='text-reset'>
+                <Link to='/Contact' className='text-reset'>
                   Help
-                </a>
+                </Link>
               </p>
             </MDBCol>
             <MDBCol className='contact2'>
