@@ -183,9 +183,9 @@
     font-size: 40px;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 360px) {
   .navbar {
-    width: 77%;
+    width: 90%;
     border: 2px red solid;
   }
   .nav-links {
@@ -233,6 +233,7 @@
     font-size: 40px;
   }
 }
+
 @media (min-width: 425px) {
   .navbar {
     width: 90%;

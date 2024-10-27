@@ -101,6 +101,25 @@
     left: 0rem;
   }
 }
+@media (min-width: 360px) {
+  .offers {
+    position: relative;
+    width: 94%;
+    left: -4rem;
+    top: -1rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
+}
 @media (min-width: 375px) {
   .offers {
     position: relative;
