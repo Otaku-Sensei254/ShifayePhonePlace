@@ -21,24 +21,24 @@ export default function App() {
             <MDBCol md='2' lg='2' xl='2' className='list1'>
               <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
               <p>
-                <a href='/Shop' className='text-reset'>
+                <Link to='/Shop' className='text-reset'>
                   Brand New Phones
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/iPhones' className='text-reset'>
+                <Link to='/iPhones' className='text-reset'>
                   Ex-UK Phones
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/Accessories' className='text-reset'>
+                <Link to='/Accessories' className='text-reset'>
                   Phone Accessories
-                </a>
+                </Link>
               </p>
               <p>
-                <a href='/Accessories' className='text-reset'>
+                <Link to='/Accessories' className='text-reset'>
                   Electronic Accessories
-                </a>
+                </Link>
               </p>
             </MDBCol>
 
