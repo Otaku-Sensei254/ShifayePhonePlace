@@ -1,118 +1,138 @@
-.menu-class1{
+.menu-class1 {
+  position: absolute;
+  right: 4rem;
+  background: rgba(41, 37, 37, 0.991);
+  padding: 2rem 4rem;
+  z-index: 1;
+  transition: 2s ease-in-out;
+}
+.menu-class1 ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+.menu-class1 li a {
+  display: flex;
+  font-size: 30px;
+  justify-content: space-between;
+}
+.tap-me-menu1 {
+  position: absolute;
+  color: black;
+  background: white;
+  top: 3rem;
+  border: 2px black solid;
+  right: 2rem;
+  font-size: 12px;
+}
+@media (max-width: 321px) {
+  .tap-me-menu1 {
     position: absolute;
-    right: 4rem;
-    background: rgba(41, 37, 37, 0.991);
-    padding: 2rem 4rem;
-    z-index: 1;
-    transition: 2s ease-in-out;
-}
-.menu-class1 ul{
-    display: flex;
-    text-decoration: none;
-    list-style: none;
-}
-.menu-class1 li a{
-    display: flex;
-    font-size: 30px;
-    justify-content: space-between;
-}
-.tap-me-menu1{
+    top: 5rem;
+    right: 1rem;
+  }
+  .menu-class1 {
     position: absolute;
-    color:black;
-    background: white;
-    top: 3rem;
-    border: 2px black solid ;
+    right: 0.5rem;
+    top: 9rem;
+    width: 30%;
+  }
+}
+@media (min-width: 344px) {
+  .tap-me-menu1 {
+    position: absolute;
+    top: 5rem;
+    right: 0.5rem;
+  }
+  .menu-class1 {
+    position: absolute;
+    right: 0.5rem;
+    top: 9rem;
+    width: 30%;
+  }
+}
+@media (min-width: 360px) {
+  .tap-me-menu1 {
+    position: absolute;
+    top: 5.5rem;
+    right: 0.5rem;
+  }
+  .menu-class1 {
+    position: absolute;
+    right: 0.5rem;
+  }
+}
+@media (min-width: 375px) {
+  .tap-me-menu1 {
+    position: relative;
+    top: 4rem;
+    right: -1rem;
+  }
+  .menu-class1 {
+    position: absolute;
+    right: 1rem;
+    top: 9rem;
+    width: 40%;
+  }
+}
+@media (min-width: 390px) {
+  .tap-me-menu1 {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+  }
+  .menu-class1 {
+    position: absolute;
+    right: 1rem;
+    top: 9rem;
+    width: 40%;
+  }
+}
+@media (min-width: 414px) {
+  .tap-me-menu1 {
+    position: absolute;
+    top: 6rem;
+    right: 1rem;
+  }
+}
+@media (min-width: 425px) {
+  .tap-me-menu1 {
+    position: absolute;
+    top: 5rem;
+    right: 1rem;
+  }
+}
+@media (min-width: 430px) {
+  .tap-me-menu1 {
+    position: absolute;
+    right: 3rem;
+  }
+  .menu-class1 {
+    position: absolute;
     right: 2rem;
-    font-size: 12px;
+  }
 }
-@media (max-width:321px){
-    .tap-me-menu1{
-        position: absolute;
-        top: 5rem;
-        right: 1rem;
-    }
-    .menu-class1{
-        position:absolute;
-        right:0.5rem;
-        top: 9rem;
-        width: 30%;
-    }
+@media (min-width: 600px) {
+  .tap-me-menu1 {
+    position: absolute;
+    right: 1rem;
+    top: 7rem;
+  }
 }
-@media (min-width:360px){
-    .tap-me-menu1{
-        position: absolute;
-        top: 5.5rem;
-        right: 0.5rem;
-    }
-    .menu-class1{
-        position: absolute;
-        right: 0.5rem;
-    }
+@media (min-width: 768px) {
+  .tap-me-menu1 {
+    position: absolute;
+    right: 1rem;
+    top: 6rem;
+  }
+  .menu-class1 {
+    position: absolute;
+    right: 1rem;
+    width: 20%;
+  }
 }
-@media (min-width:375px){
-    .tap-me-menu1{
-        position: relative;
-        top: 4rem;
-        right: 2rem;
-    }
-    .menu-class1{
-        position:absolute;
-        right:1rem;
-        top: 9rem;
-        width: 40%;
-    }
-}
-@media (min-width:390px){
-    .tap-me-menu1{
-        position: absolute;
-        top: 5rem;
-        right: 1rem;
-    }
-    .menu-class1{
-        position:absolute;
-        right:1rem;
-        top: 9rem;
-        width: 40%;
-    }
-}
-@media (min-width:425px){
-    .tap-me-menu1{
-        position: absolute;
-        top: 5rem;
-        right: 1rem;
-    }
-}
-@media (min-width:430px){
-    .tap-me-menu1{
-        position: absolute;
-        right: 3rem;
-    }
-    .menu-class1{
-        position: absolute;
-        right:2rem;
-    }
-}
-@media (min-width:600px){
-    .tap-me-menu1{
-        position: absolute;
-        right: 1rem;
-        top: 7rem;
-    }   
-}
-@media (min-width:768px){
-    .tap-me-menu1{
-        position: absolute;
-        right: 1rem;
-        top: 6rem;
-    }
-    .menu-class1{
-        position: absolute;
-        right: 1rem;
-        width: 20%;
-    }
-}
-@media (min-width:1024px){
-    .tap-me-menu1{
-        display: none;
-    }
+@media (min-width: 1024px) {
+  .tap-me-menu1 {
+    display: none;
+  }
 }

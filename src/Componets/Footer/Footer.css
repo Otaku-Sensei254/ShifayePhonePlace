@@ -27,7 +27,35 @@
     font-size: 30px;
   }
 }
-
+@media (min-width: 344px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 108rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
 @media (min-width: 360px) {
   .footer2 {
     background: #f79d00; /* fallback for old browsers */
@@ -78,7 +106,43 @@
     position: absolute;
     top: 105rem;
     border: 2px red solid;
-    width: 86%;
+    width: 98%;
+  }
+  .myFoot .contact2 li {
+    list-style: none;
+  }
+  .myFoot .contact2 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
+@media (min-width: 414px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 99%;
   }
   .myFoot .contact2 li {
     list-style: none;
@@ -136,6 +200,7 @@
     font-size: 30px;
   }
 }
+
 @media (min-width: 768px) {
   .footer2 {
     background: #f79d00; /* fallback for old browsers */
@@ -150,6 +215,170 @@
     justify-content: space-between;
     position: absolute;
     top: 105rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .myFoot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list1 {
+    position: relative;
+    right: 15rem;
+    top: 2rem;
+    line-height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list2 {
+    position: absolute;
+    line-height: 1.5rem;
+    top: 3rem;
+    left: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .locate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 {
+    font-size: 18px;
+    position: relative;
+    top: -7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 li {
+    list-style: none;
+  }
+  .myFoot .contact2 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
+@media (min-width: 1024px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .myFoot {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list1 {
+    position: relative;
+    right: 15rem;
+    top: 2rem;
+    line-height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list2 {
+    position: absolute;
+    line-height: 1.5rem;
+    top: 3rem;
+    left: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .locate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 {
+    font-size: 18px;
+    position: relative;
+    top: -7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 li {
+    list-style: none;
+  }
+  .myFoot .contact2 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
+@media (min-width: 1440px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 115rem;
     border: 2px red solid;
     width: 100%;
   }

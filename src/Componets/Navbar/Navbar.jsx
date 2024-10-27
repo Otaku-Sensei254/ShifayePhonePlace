@@ -7,7 +7,12 @@ import { MdMenu } from "react-icons/md";
 import MobileNav from './Mobilenav';
 import PhoneBar from './PhoneBar';
 import { CiHeadphones } from "react-icons/ci";
+import { MdCall } from "react-icons/md";
 const Navbar = () => {
+  const [isOpen,setIsOpen] = useState(false);
+  const toggleDrop =() => {
+    setIsOpen(!isOpen);
+  };
   const [menu,setMenu] = useState("Home")
   return (
     <>
@@ -29,9 +34,15 @@ const Navbar = () => {
           </div>
           <div className="phone-no">
             <div className="call-icon">
-              <button className='call-btn'>
+              <button className='call-btn' onClick={toggleDrop}>
+                {isOpen? 'close drop':'open drop'}
               <CiHeadphones className='head-no'/>
               </button>
+              {isOpen && (
+                <div className="call-us">
+                  <p><MdCall/>+254 746 429881</p>
+                </div>
+              )}
               </div> 
           </div>
           <MobileNav/>

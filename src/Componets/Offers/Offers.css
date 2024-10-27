@@ -86,7 +86,7 @@
 @media (max-width: 320px) {
   .offers {
     position: relative;
-    width: 88%;
+    width: 92%;
     left: -4rem;
     border: 2px red solid;
   }
@@ -123,7 +123,7 @@
 @media (min-width: 375px) {
   .offers {
     position: relative;
-    width: 81%;
+    width: 93%;
     left: -4rem;
     top: -3rem;
     border: 2px red solid;
@@ -144,7 +144,7 @@
     position: relative;
     width: 93%;
     left: -4rem;
-    top: -3rem;
+    top: -1rem;
     border: 2px red solid;
   }
   .offers h1 {
@@ -165,6 +165,7 @@
     left: -4rem;
     top: 0rem;
     border: 2px red solid;
+    height: 55%;
   }
   .offers h1 {
     position: relative;
@@ -172,9 +173,48 @@
   }
   .offers-right img {
     position: relative;
-    top: 2rem;
+    top: 4rem;
     width: 100%;
     left: 0rem;
+  }
+}
+@media (min-height: 882px) {
+  .offers {
+    position: relative;
+    width: 97%;
+    left: -4rem;
+    top: 0rem;
+    border: 2px red solid;
+    height: 40%;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 4rem;
+    width: 100%;
+    left: 0rem;
+  }
+}
+@media (min-width: 1024px) {
+  .offers {
+    position: relative;
+    width: 97%;
+    left: -4rem;
+    top: 0rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 1rem;
+    width: 78%;
+    left: 8rem;
   }
 }
 /*

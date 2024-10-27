@@ -96,7 +96,7 @@
   }
   .about-p {
     font-size: 16px;
-    width: 85%;
+    width: 97%;
     margin: 2rem;
     position: relative;
     top: -1rem;
@@ -141,6 +141,118 @@
     position: relative;
     left: 4rem;
     top: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .About-header {
+    position: relative;
+    left: 2rem;
+    font-size: 38px;
+    width: 80%;
+  }
+  .about-p {
+    font-size: 18px;
+    width: 97%;
+    margin: 2rem;
+    position: relative;
+    top: -1rem;
+    left: -1.9rem;
+  }
+  .time {
+    font-size: 14px;
+    position: relative;
+    left: 1rem;
+    top: 0rem;
+  }
+  .side-img {
+    width: 40%;
+    position: relative;
+    left: 24rem;
+    top: -7rem;
+  }
+}
+@media (min-height: 882px) {
+  .About-header {
+    position: relative;
+    left: 2rem;
+    font-size: 38px;
+    width: 80%;
+  }
+  .about-p {
+    font-size: 18px;
+    width: 97%;
+    margin: 2rem;
+    position: relative;
+    top: -1rem;
+    left: -1.9rem;
+  }
+  .time {
+    font-size: 14px;
+    position: relative;
+    left: 1rem;
+    top: 0rem;
+  }
+  .side-img {
+    width: 40%;
+    position: relative;
+    left: 4rem;
+    top: 2rem;
+  }
+}
+@media (min-height: 1024px) {
+  .About-header {
+    position: relative;
+    left: 2rem;
+    font-size: 38px;
+    width: 80%;
+  }
+  .about-p {
+    font-size: 18px;
+    width: 97%;
+    margin: 2rem;
+    position: relative;
+    top: -1rem;
+    left: -1.9rem;
+  }
+  .time {
+    font-size: 14px;
+    position: relative;
+    left: 1rem;
+    top: 0rem;
+  }
+  .side-img {
+    width: 40%;
+    position: relative;
+    left: 14rem;
+    top: 2rem;
+  }
+}
+@media (min-width: 1440px) {
+  .About-header {
+    position: relative;
+    left: 2rem;
+    font-size: 38px;
+    width: 80%;
+  }
+  .about-p {
+    font-size: 18px;
+    width: 97%;
+    margin: 2rem;
+    position: relative;
+    top: -1rem;
+    left: -1.9rem;
+  }
+  .time {
+    font-size: 14px;
+    position: relative;
+    left: 1rem;
+    top: 0rem;
+  }
+  .side-img {
+    width: 36%;
+    position: relative;
+    left: 50rem;
+    top: -6rem;
   }
 }
 /*
