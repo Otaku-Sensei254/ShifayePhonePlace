@@ -1,69 +1,103 @@
-import React from 'react'
+import React from 'react';
+import { MDBFooter, MDBContainer, MDBRow, MDBCol, MDBIcon } from 'mdb-react-ui-kit';
 import './Footer.css'
-import { SlSocialInstagram } from "react-icons/sl";
 import { FaWhatsapp } from "react-icons/fa";
-import { FaFacebookF } from "react-icons/fa";
-import Img1 from '../Assets/iPhones/iPHN_RED.jpeg'
-import Img2 from '../Assets/Samsungs/S24ULTRA.jpeg'
-import Img3 from '../Assets/Vivos/V20SE.jpeg'
-import Img5 from '../Assets/Oppos/A57.jpeg'
-import Img4 from '../Assets/Onsale/S20ULTRA.jpeg'
-import Img6 from '../Assets/RealMe/Realme-C55.jpg'
-import { FaPhone } from "react-icons/fa6";
-import { FaEnvelope } from "react-icons/fa";
-import { CiLocationOn } from "react-icons/ci";
-import Logo from '../Assets/logo.jpeg'
-import {Link} from 'react-router-dom'
-const Footer = () => {
+import { FaInstagram } from "react-icons/fa";
+import { IoLogoFacebook } from "react-icons/io5";
+export default function App() {
   return (
-    <>
-        <div className="myfooter">
-          <div className="footer-section">
-          <Link to="/"><img className="Fl"src={Logo} alt="" /></Link>
-            <div className="footer-left">
-              <h1>Get in touch <FaPhone/></h1>
-              <ul>
-              <li><FaPhone/>+254 746 429881</li>
-              <li><FaEnvelope/> shifayenterprises47@gmail.com</li>
-              <li><CiLocationOn/>Luthuli Avenue , Nairobi, Kenya,</li>  
-              </ul>
-              
-              <div className="socials"></div>
-            </div>
-            <div className="subscribe">
-              <form className='email-sub'>
-                <input type="email" placeholder='Join Our Community' className='join' />
-              <button type='submit' className='sub'>Subscribe</button>
-              </form>
-              
-            </div>
-            <div className="footer-right">
-                  <div className="gallery">
-                    <h5 className='gp'>our phone gallery</h5>
-                    <div className="image-grid">
-                      <img src={Img1} alt="" />
-                      <img src={Img2} alt="" />
-                      <img src={Img3} alt="" />
-                      <img src={Img4} alt="" />
-                      <img src={Img5} alt=""/>
-                      <img src={Img6} alt=""/>
-                    </div>
-                  </div>
-                   <h4 className='links'>Contact us via our Socials</h4> 
-              <div className="icons">  
-                <Link to="https://web.facebook.com/shifayeee"><FaFacebookF className='facebk'/></Link> 
-                <Link to="https://wa.me/+254746429881" target='blank'><FaWhatsapp className='Whatsapp'/></Link> 
-                <Link to="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet" target='blank'><SlSocialInstagram className='insta'/></Link> 
-                </div>
-                <div className="copy">
-                  <p className='cpy'>Shifaye Enterprise <br/> copyright@2024 by D-Huhu Inc </p>
-                </div>
-            </div>
-        </div>
-        </div>
-        
-    </>
-  )
-}
+    <MDBFooter className='footer2'>
+      <section className='myFoot'>
+        <MDBContainer className='text-center text-md-start mt-5'>
+          <MDBRow className='mt-3'>
+            <MDBCol md='3' lg='4' xl='3' className='mx-auto mb-4'>
+              <h6 className='text'>
+                <MDBIcon color='secondary' icon='gem' className='me-3' />
+                Shifaye Enterprise
+              </h6>
+            </MDBCol>
 
-export default Footer
+            <MDBCol md='2' lg='2' xl='2' className='list1'>
+              <h6 className='text-uppercase fw-bold mb-4'>Products</h6>
+              <p>
+                <a href='/Shop' className='text-reset'>
+                  Brand New Phones
+                </a>
+              </p>
+              <p>
+                <a href='/iPhones' className='text-reset'>
+                  Ex-UK Phones
+                </a>
+              </p>
+              <p>
+                <a href='/Accessories' className='text-reset'>
+                  Phone Accessories
+                </a>
+              </p>
+              <p>
+                <a href='/Accessories' className='text-reset'>
+                  Electronic Accessories
+                </a>
+              </p>
+            </MDBCol>
+
+            <MDBCol md='3' lg='2' xl='2' className='list2'>
+              <h6 className='text-uppercase fw-bold mb-4'>Useful links</h6>
+              <p>
+                <a href='/Products' className='text-reset'>
+                  Pricing
+                </a>
+              </p>
+              <p>
+                <a href='/Contact' className='text-reset'>
+                  Orders
+                </a>
+              </p>
+              <p>
+                <a href='/Contact' className='text-reset'>
+                  Help
+                </a>
+              </p>
+            </MDBCol>
+            <MDBCol className='contact2'>
+              <ul>
+                <h6>Our socials</h6>
+                <li>
+                  <a href="https://wa.me/+254746429881"><FaWhatsapp className='icon1'/>+254 746 429881</a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/shifaye_enterprises/?utm_source=ig_web_button_share_sheet"><FaInstagram className='icon2'/>Shifaye Instagram</a>
+                </li>
+                <li>
+                  <a href="https://web.facebook.com/shifayeee"><IoLogoFacebook className='icon3'/>Shifaye FaceBook</a>
+                </li>
+              </ul>
+            </MDBCol>
+
+            <MDBCol md='4' lg='3' xl='3' className='locate'>
+              <h6 className='text-uppercase fw-bold mb-4'>Contact</h6>
+              <p>
+                <MDBIcon color='secondary' icon='home' className='me-2' />
+                Nairobi , Along Luthuli Avenue Dawa house
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='envelope' className='me-3' />
+                shifayenterprises47@gmail.com
+              </p>
+              <p>
+                <MDBIcon color='secondary' icon='phone' className='me-3' />+254 746 429881
+              </p>
+            </MDBCol>
+          </MDBRow>
+        </MDBContainer>
+      </section>
+
+      <div className='text-center p-4' style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
+        © 2024 Copyright:
+        <a className='text-reset fw-bold' href='https://d-huhuinc.vercel.app/'>
+        d-huhuinc.vercel.app
+        </a>
+      </div>
+    </MDBFooter>
+  );
+}

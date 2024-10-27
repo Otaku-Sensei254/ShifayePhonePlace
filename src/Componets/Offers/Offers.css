@@ -1,185 +1,273 @@
-.offers{
-    background: #f79d00;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #64f38c, #f79d00);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #64f38c, #f79d00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    height: 100vh;
-    width: 95%;
-    margin: 2rem 4rem;
-    padding: 10px 10px;
-    position: relative;
-    left: -3rem;
-}.offers-left{
-    text-align: center;
+.offers {
+  background: #f79d00; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #64f38c,
+    #f79d00
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #64f38c,
+    #f79d00
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 100vh;
+  width: 95%;
+  margin: 2rem 4rem;
+  padding: 10px 10px;
+  position: relative;
+  left: -3rem;
 }
-.offers-left h1{
-    font-weight: 500;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    position: relative;
-    font-size: 60px;
+.offers-left {
+  text-align: center;
+}
+.offers-left h1 {
+  font-weight: 500;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  position: relative;
+  font-size: 60px;
 }
 
-.offers-left p{
-    position: relative;
-    color: white;
-    font-weight: 500;
-    font-size: 20px;
+.offers-left p {
+  position: relative;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
 }
-.offers-left .check-btn{
-    background: transparent;
-    position: relative;
-    top: 10px;
-    border-radius: 90px;
-    color: white;
-    font-size: 1rem;
-    border: 2px solid white;
-    cursor: pointer;
+.offers-left .check-btn {
+  background: transparent;
+  position: relative;
+  top: 10px;
+  border-radius: 90px;
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  cursor: pointer;
 }
-.offers-left .check-btn:hover{
-    transform: scale(1.2);
-    transition: 0.65s ease;
+.offers-left .check-btn:hover {
+  transform: scale(1.2);
+  transition: 0.65s ease;
 }
-.Ex-Pick{
-    position: relative;
-    width: 1100px;
-    top: 0.9rem;
-    left: 2rem;
-    animation: 4s rotateX infinite;
+.offers-right img {
+  position: absolute;
+  width: 100%;
+  top: 18rem;
+  left: 3rem;
+  animation: 10s rotateX infinite;
+  mask-repeat: no-repeat;
 }
+
 @keyframes rotateX {
-    from {
-      transform: rotateY(0deg);
-    }
-    to {
-      transform: rotateY(360deg);
-    }
+  from {
+    transform: rotateY(0deg);
   }
-
-    
-
- @media (max-width:321px){
-    .offers{
-        position: relative;
-        width: 38%;
-        left: -4rem;
-        
-    }
-    .offers h1{
-        position: relative;
-        left: -1rem;
-    }
-    .Ex-Pick{
-        width: 70%;
-        height: 7rem;
-    }
- }
- @media (min-width:360px){
-    .offers{
-        width: 43%;
-        position: relative;
-        top: -2rem;
-        left: -4rem;
-        height: 35%;
-    }
-    .Ex-Pick{
-        position: relative;
-        left: 1\0em;
-        top: 2rem;
-        width: 20rem;
-        height: 10rem;
-    }
-}
-@media (min-width:375px){
-    .offers{
-        width: 44%;
-        position: relative;
-        top: -2rem;
-        left: -4rem;
-        height: 30%;
-    }
-    .Ex-Pick{
-        position: relative;
-        left: 2em;
-        top: 2rem;
-        width: 20rem;
-        height: 10rem;
-    }
-}
-@media (min-width:390px){
-    .offers{
-        width: 46.5%;
-        position: relative;
-        top: -2rem;
-        left: -4rem;
-        height: 39%;
-    }
-    .Ex-Pick{
-        position: relative;
-        left: 2em;
-        top: 2rem;
-        width: 20rem;
-        height: 10rem;
-    }
-}
-@media (min-width:425px){
-    .offers{
-        position: relative;
-        top: 0.5rem;
-        left: -4rem;
-        width: 50.5%;
-        height: 35%;
-    }
-}
-@media (min-width:430px){
-    .Ex-Pick{
-        position: relative;
-        left: 0rem;
-        width: 100%;
-        height: 100%;
-    }
-}
-@media (min-width:600px){
-    .offers{
-        width: 73%;
-    }
+  to {
+    transform: rotateY(360deg);
+  }
 }
 
-@media (min-width:768px){
-    .offers{
-        position: relative;
-        top: 0rem;
-        width: 75%;
-    }
-    .Ex-Pick{
-        position: relative;
-        left: 7rem;
-        top: 1rem;
-        height: 10rem;
-        width: 30rem;
-    }
+@keyframes slide {
+  0% {
+    background-image: url(https://shorturl.at/oFSjL);
+  }
+  35% {
+    background-image: url(https://shorturl.at/NgNNp);
+  }
+  50% {
+    background-image: url(https://tinyurl.com/muctreu4);
+  }
+  85% {
+    background-image: url(https://tinyurl.com/mrx6655z);
+  }
+  100% {
+    background-image: url(https://tinyurl.com/wn94dkac);
+  }
 }
-@media (min-width:1024px){
-    .offers{
-        width: 100%;
-        position: relative;
-        left: -1rem;
-        height: 60%;
-        margin-left: 1rem;
-    }
-    .Ex-Pick{
-        position: relative;
-        left: 4rem;
-        width: 90%;
-        top: 9rem;
-        height: 20rem;
-    }
+
+@media (max-width: 320px) {
+  .offers {
+    position: relative;
+    width: 88%;
+    left: -4rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
 }
-@media (min-width:1440px){
-    .offers{
-        width: 100%;
-    }
+@media (min-width: 375px) {
+  .offers {
+    position: relative;
+    width: 81%;
+    left: -4rem;
+    top: -3rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
 }
-@media (min-width:2560px){
-    .offers{
-        width: 100%;
-    }
+@media (min-width: 425px) {
+  .offers {
+    position: relative;
+    width: 93%;
+    left: -4rem;
+    top: -3rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
 }
+@media (min-width: 768px) {
+  .offers {
+    position: relative;
+    width: 97%;
+    left: -4rem;
+    top: 0rem;
+    border: 2px red solid;
+  }
+  .offers h1 {
+    position: relative;
+    left: -1rem;
+  }
+  .offers-right img {
+    position: relative;
+    top: 2rem;
+    width: 100%;
+    left: 0rem;
+  }
+}
+/*
+@media (min-width: 360px) {
+  .offers {
+    width: 43%;
+    position: relative;
+    top: -2rem;
+    left: -4rem;
+    height: 35%;
+  }
+  .Ex-Pick {
+    position: relative;
+    left: 1\0em;
+    top: 2rem;
+    width: 20rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 375px) {
+  .offers {
+    width: 44%;
+    position: relative;
+    top: -2rem;
+    left: -4rem;
+    height: 30%;
+  }
+  .Ex-Pick {
+    position: relative;
+    left: 2em;
+    top: 2rem;
+    width: 20rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 390px) {
+  .offers {
+    width: 46.5%;
+    position: relative;
+    top: -2rem;
+    left: -4rem;
+    height: 39%;
+  }
+  .Ex-Pick {
+    position: relative;
+    left: 2em;
+    top: 2rem;
+    width: 20rem;
+    height: 10rem;
+  }
+}
+@media (min-width: 425px) {
+  .offers {
+    position: relative;
+    top: 0.5rem;
+    left: -4rem;
+    width: 50.5%;
+    height: 35%;
+  }
+}
+@media (min-width: 430px) {
+  .Ex-Pick {
+    position: relative;
+    left: 0rem;
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (min-width: 600px) {
+  .offers {
+    width: 73%;
+  }
+}
+
+@media (min-width: 768px) {
+  .offers {
+    position: relative;
+    top: 0rem;
+    width: 75%;
+  }
+  .Ex-Pick {
+    position: relative;
+    left: 7rem;
+    top: 1rem;
+    height: 10rem;
+    width: 30rem;
+  }
+}
+@media (min-width: 1024px) {
+  .offers {
+    width: 100%;
+    position: relative;
+    left: -1rem;
+    height: 60%;
+    margin-left: 1rem;
+  }
+  .Ex-Pick {
+    position: relative;
+    left: 4rem;
+    width: 90%;
+    top: 9rem;
+    height: 20rem;
+  }
+}
+@media (min-width: 1440px) {
+  .offers {
+    width: 100%;
+  }
+}
+@media (min-width: 2560px) {
+  .offers {
+    width: 100%;
+  }
+}
+*/

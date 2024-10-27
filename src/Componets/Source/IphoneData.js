@@ -26,6 +26,12 @@ import iBanner from '../Assets/iPhones/iBanner.jpeg'
 import Mc13 from '../Assets/iPhones/MC13.jpeg'
 let iphone_product =[
     {
+        id:0,
+        name:"iPhone 16 ",
+        image:"https://shorturl.at/N072i",
+        new_price:190000,
+    },
+    {
         id:1,
         name:"iPhone X",
         image:iX,

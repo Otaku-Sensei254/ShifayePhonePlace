@@ -1,850 +1,169 @@
-.footer-section{
-    position: relative;
-    background: black;
-    width: 97%;
-    height: 100%;
+@media (max-width: 320px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
     display: flex;
-    justify-content: space-between;
-    gap:2rem;
-    color: white;
-    margin-left: 1rem;
-    height: 23%;
-    top: 15rem;
-    padding: 6px 10px;
-}
-.socials{
-    position: relative;
-    top: 10rem;
-    left: 69rem;
-    font-size: 30px;
-}
-.icons{
-    position: relative;
-    right: 3rem;
-    display:flex;
-    justify-content: space-between;
-    cursor: pointer;
-    gap: 20px;
-    font-size: 30px;
-    top: 6rem;
-    margin-bottom: 2rem;
-}
-.insta{
-    color: rgb(181, 55, 175);
-    margin-bottom: 3rem;
-}
-.insta:hover{
-    box-shadow: 0 0 10px white, 0 0 20px rgb(212, 22, 212);
-
-}
-.Whatsapp{
-    color:limegreen;
-    margin-bottom: 4em;
-}
-.Whatsapp:hover{
-    box-shadow: 0 0 10px white, 0 0 20px rgb(54, 212, 22);
-
-}
-.facebk{
-    color: rgb(0, 162, 255);
-    margin-bottom: 6rem;
-}
-.facebk:hover{
-    background: transparent;
-    box-shadow: 0 0 10px white, 0 0 20px rgb(0, 166, 255);
-}
-.links{
-    position: relative;
-    top: 5rem;
-    right: 3rem;
-    font-size: 20px;
-}
-.image-grid{
-    position: relative;
-    right: 2rem;
-    top: 4rem;
-    margin-top: 10px;
-    display:grid;
-    grid-template-columns: repeat(3 , 2fr);
-    gap: 5px;
-}
-.image-grid img{
-    width: 70px;
-    height: 70px;
-    
-}
-.email-sub{
-    background: transparent;
-    display: block;
-}
-.sub{
-    position: relative;
-    top: -3rem;
-}
-.join{
-    position: relative;
-    left: -15rem;
-    border-radius: 0;
-    top: 0em;
-    padding: 10px 10px;
-}
-.subscribe{
-    position: relative;
-    top: 3rem;
-}
-.sub:hover{
-    background: rgb(0, 162, 255);
-    transform: translateX(0.5rem);
-    transition: 0.65s ease-in-out;
-    box-shadow: 0 0 10px white, 0 0 20px rgb(0, 166, 255);
-}
-.gp{
-    position: relative;
-    top: 3rem;
-    font-size: 20px;
-}
-.cpy{
-    display: flex;
+    flex-direction: column;
     position: absolute;
-    top: 19rem;
-    right: 30rem;
-    color: white;
+    top: 100rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
 }
-.footer-left h1{
-    font-size: 20px;
-    position: relative;
-    left: -10rem;
-    top: 13rem;
-    text-decoration: underline;
-}
-.footer-left ul{
-    position: relative;
-    top: 15rem;
-    left: -13rem;
-    display: block;
-    font-size: 20px;
-    list-style: none;
-    gap: 1rem;
-    justify-content: space-around;
-}
-.footer-section ul li{
+@media (min-width: 375px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
     display: flex;
-    gap: 1rem;
-    line-height: rem;
+    flex-direction: column;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 86%;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
 }
-.Fl{
-    width: 200px;
-    height: 120px;
+@media (min-width: 425px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 97%;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .footer2 {
+    background: #f79d00; /* fallback for old browsers */
+    background: -webkit-linear-gradient(
+      to right,
+      #64f38c,
+      #f79d00
+    ); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64f38c, #f79d00);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 105rem;
+    border: 2px red solid;
+    width: 100%;
+  }
+  .myFoot {
     position: relative;
-}
-@media (max-width:321px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 37%;
-        height: 45%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 5rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 5rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 10rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 33rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 30rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 33rem;
-        top: 15rem;
-    }
-    .cpy{
-        position: relative;
-        right: 35rem;
-        top: 14rem;
-        font-size: 10px;
-        
-    }
-    .links{
-        position: relative;
-        right: 33rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-@media (min-width:375px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 44.5%;
-        height: 40%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 5rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 7rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 8rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 30rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 30rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 30rem;
-        top: 15rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 10px;
-    }
-    .links{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-@media (min-width:360px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 43%;
-        height: 32%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 5rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 5rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 8rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 32rem;
-        top: 13rem;
-    }
-    .image-grid:hover{
-        transform: scale(1.2,1.1);
-        transition: 1.68s ease-in-out;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 30rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 33rem;
-        top: 15rem;
-    }
-    .icons:hover{
-        transform: scale(1.2,1.1);
-        transition: 1.68s ease-in-out;
-    }
-    .cpy{
-        position: relative;
-        right: 33rem;
-        top: 14rem;
-        font-size: 10px;
-    }
-    .links{
-        position: relative;
-        right: 32rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-@media (min-width:390px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 46%;
-        height: 40%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 5rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 7rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 8rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 30rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 30rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 30rem;
-        top: 15rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 10px;
-    }
-    .links{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-@media (min-width:425px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 50%;
-        height: 40%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 5rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 7rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 8rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 30rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 30rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 30rem;
-        top: 15rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 10px;
-    }
-    .links{
-        position: relative;
-        right: 30rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-@media (Min-width:430px){
-    .image-grid:hover{
-        transform: scale(1.2,1.2);
-        transition: 1.68s ease-in-out;
-    }
-    .icons:hover{
-        transform: scale(1.2,1.1);
-        transition: 1.68s ease-in-out;
-    }
-}
-@media (min-width:600px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 73%;
-        height: 42%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 13rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 19rem;
-        left: 13rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 12px;
-    }
-    .subscribe{
-        position: relative;
-        right: 2rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 5rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 8rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 25rem;
-        top: 13rem;
-    }
-    .image-grid:hover{
-        transform: scale(1.2,1.2);
-        transition: 1.68s ease-in-out;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 23rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 25rem;
-        top: 15rem;
-    }
-    .icons:hover{
-        transform: scale(1.2,1.1);
-        transition: 1.68s ease-in-out;
-    }
-    .cpy{
-        position: relative;
-        right: 25rem;
-        top: 14rem;
-        font-size: 11px;
-    }
-    .links{
-        position: relative;
-        right: 25rem;
-        top: 14rem;
-        font-size: 12px;
-    }
-}
-
-@media (min-width:768px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 75%;
-        height: 30%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 2rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 0rem;
-        left: 7rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 15px;
-    }
-    .subscribe{
-        position: relative;
-        left: 4rem;
-        top: 3rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 10rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 4rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 12rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 10rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 13rem;
-        gap: 2rem;
-        top: 16rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 4rem;
-        font-size: 12px;
-        width: 15rem;
-    }
-    .links{
-        position: relative;
-        right: 10rem;
-        top: 15rem;
-        font-size: 12px;
-    }
-}
-
-
-@media (min-width:1024px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 100%;
-        height: 30%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 10rem;
-        height: 5rem;
-        position: relative;
-        left: 2rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 0rem;
-        left: 7rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 15px;
-    }
-    .subscribe{
-        position: relative;
-        left: 4rem;
-        top: 3rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 10rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 5rem;
-    }
-    .sub{
-        position: relative;
-        right: 4rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 12rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 10rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 13rem;
-        gap: 2rem;
-        top: 16rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 4rem;
-        font-size: 12px;
-        width: 15rem;
-    }
-    .links{
-        position: relative;
-        right: 10rem;
-        top: 15rem;
-        font-size: 12px;
-    }
-}
-@media (min-width:1440px){
-    .footer-section{
-        position: relative;
-        top: 22rem;
-        width: 100%;
-        height: 40%;
-        margin-left: 0;
-    }
-    .Fl{
-        width: 15rem;
-        height: 5rem;
-        position: relative;
-        left: 2rem;
-    }
-    .footer-left{
-        position: relative;
-        top: 0rem;
-        left: -2rem;
-    }
-    .footer-left h1{
-        font-size: 15px;
-    }
-    .footer-left li{
-        font-size: 20px;
-    }
-    .subscribe{
-        position: relative;
-        left: 4rem;
-        top: 6rem;
-    }
-    .join{
-        font-size: 10px;
-        width: 10rem;
-        border-radius: 10px;
-    }
-    .join:hover{
-        width: 100%;
-    }
-    .sub{
-        position: relative;
-        right: 4rem;
-        font-size: 15px
-    }
-    .image-grid{
-        position: relative;
-        right: 12rem;
-        top: 13rem;
-    }
-    .image-grid img{
-        width: 50px;
-    }
-    .gp{
-        position: relative;
-        right: 10rem;
-        top: 12rem;
-        width: 100%;
-    }
-    .icons{
-        position: relative;
-        right: 13rem;
-        gap: 2rem;
-        top: 16rem;
-    }
-    .cpy{
-        position: relative;
-        right: 30rem;
-        top: 4rem;
-        font-size: 12px;
-        width: 15rem;
-    }
-    .links{
-        position: relative;
-        right: 10rem;
-        top: 15rem;
-        font-size: 12px;
-    }
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list1 {
+    position: relative;
+    right: 15rem;
+    top: 2rem;
+    line-height: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .list2 {
+    position: absolute;
+    line-height: 1.5rem;
+    top: 3rem;
+    left: 23rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .locate {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 {
+    font-size: 18px;
+    position: relative;
+    top: -7rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .myFoot .contact2 li {
+    list-style: none;
+  }
+  .myFoot .contact2 li a {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .icon1 {
+    color: rgb(10, 138, 20);
+    font-size: 30px;
+  }
+  .icon2 {
+    color: rgb(132, 10, 138);
+    font-size: 30px;
+  }
+  .icon3 {
+    color: rgb(10, 34, 101);
+    font-size: 30px;
+  }
 }

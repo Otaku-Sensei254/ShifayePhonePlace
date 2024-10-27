@@ -13,7 +13,7 @@ const Offers = () => {
           <Link to="/Shop"><button className='check-btn'>Shop Now</button></Link>
         </div>
         <div className="offers-right">
-          <img  className="Ex-Pick"src={PIC} alt="" />
+          <img  className="Ex-Pick"src="https://shorturl.at/oFSjL" alt="" />
         </div>
       </div>
     </>

@@ -28,9 +28,10 @@ const Navbar = () => {
             <div className="nav-cart-count">0</div>
           </div>
           <div className="phone-no">
-            contact us +254 746 429881
             <div className="call-icon">
+              <button className='call-btn'>
               <CiHeadphones className='head-no'/>
+              </button>
               </div> 
           </div>
           <MobileNav/>
