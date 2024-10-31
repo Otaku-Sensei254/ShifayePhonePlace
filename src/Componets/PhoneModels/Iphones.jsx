@@ -23,8 +23,8 @@ const Iphones = () => {
     
 
         <h2 className='ITEM-P'>POPULAR APPLE PRODUCTS</h2>
-        <div className="Iphone">
-          <div className="iphones">
+        <div className="Shop-box">
+          <div className="items-box">
             {
               iphone_product.map(products=>(
                 <Items data={products} id={products.id} details={products.details}/>

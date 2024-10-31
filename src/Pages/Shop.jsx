@@ -27,13 +27,27 @@ import Footer from '../Componets/Footer/Footer'
 //import Popular from '../Componets/Popular/Popular'
 
 const Shop = () => {
+{/*
+  const list = [{
+    id:1,
+    name:"Book 1",
+    image:"https://tinyurl.com/44yta7su",
+  },
+  {
+    id:2,
+    name:'Book 2',
+    image:'https://tinyurl.com/yx4sej6s',
+  }
+];
+*/}
+
   const[searchTerm, setSearchTerm] =useState("");
   
   return (
     <>
     <Navbar/>
     <MobileNav/>
-    <PhoneNavBar/>
+    
     <PhoneBar/>
     
    <div className="shop-container">
@@ -72,58 +86,21 @@ const Shop = () => {
           </div>
     </div>
     {/*<Popular/>*/}
-    <div className="popular">
-        <div className="all">
-          {
-                iphone_product.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Samsung_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Vivo_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Oppo_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Nokia_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Realme_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Infinix_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               {
-                Tecno_Products.map(cul=>(
-                  <Items data={cul} id={cul.id} image={cul.image}/>
-                ))
-               }
-               
+        <div className="Shop-box">
+          <h3>Our Products</h3>
+          <div className="items-box">
+             {
+      All_Products.map(mob =>(
+          <Items data={mob} id={mob.id} name={mob.name} image={mob.image} new_price={mob.new_price} old_price={mob.old_price}/>
+        ))
+       }
+          </div>
+      
         </div>
-        
-    </div>
-      <div className="products">
-      <div className="template-container2"></div>
                        
        
       </div>
-   </div>
+   
      
      
     </>

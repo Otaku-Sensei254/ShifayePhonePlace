@@ -79,7 +79,7 @@ export default function App() {
               <h6 className='text-uppercase fw-bold mb-4'>Locate Us</h6>
               <p>
                 <MDBIcon color='secondary' icon='home' className='me-2' />
-                Nairobi , Along Luthuli Avenue Dawa house
+                Nairobi , Along Luthuli Avenue Dama house No.15
               </p>
               <p>
                 <MDBIcon color='secondary' icon='envelope' className='me-3' />

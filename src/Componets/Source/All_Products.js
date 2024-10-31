@@ -75,6 +75,13 @@ import RPAD from '../Assets/RealMe/Realme-Pad.jpg'
 
 let All_Products=[
     {
+        id:0,
+        name:"iPhone 16 ",
+        image:"https://shorturl.at/N072i",
+        new_price:190000,
+        old_price:200000,
+    },
+    {
         id:1,
         name:"Infinix Hot 40",
         image:IHOT40,

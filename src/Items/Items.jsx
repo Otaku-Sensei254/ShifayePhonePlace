@@ -7,7 +7,7 @@ const Items = (props) => {
   const {id,name,new_price,old_price,image,details}=props.data;
   //const { addToCart } = useContext(ShopContextProvider)
   return (
-    <div className='container'>    
+    <div className='box'>    
     <div className="items">
       <div className="item">
         <img className="item-img"src={image} alt="" />

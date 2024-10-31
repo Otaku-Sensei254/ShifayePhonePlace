@@ -30,6 +30,7 @@ let iphone_product =[
         name:"iPhone 16 ",
         image:"https://shorturl.at/N072i",
         new_price:190000,
+        old_price:200000,
     },
     {
         id:1,
@@ -189,14 +190,14 @@ let iphone_product =[
     {
         id:23,
         name:" MacBook Air M1 13.3 inch",
-        image:{Mc13},
+        image:"https://shorturl.at/AlNJr",
         new_price:"92,000",
         old_price:"102,000",
     },
     {
         id:24,
         name:"MacBook Air M2 13.6 inch",
-        image:"https://shorturl.at/5x6rt",
+        image:"https://shorturl.at/HX8Rb",
         new_price:"120,000",
         old_price:"130,000",
         details:"13.6 inch 256GB/8GB",
@@ -204,7 +205,7 @@ let iphone_product =[
     {
         id:25,
         name:"MacBook Air M2 15 inch",
-        image:"https://th.bing.com/th?id=OIF.8G5Po3%2fB4TqcXPbduUsH2A&w=167&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        image:"https://shorturl.at/qhZ3P",
         new_price:"151,000",
         old_price:"160,000",
         details:"13.6 inch 256GB/8GB",
@@ -212,7 +213,7 @@ let iphone_product =[
     {
         id:26,
         name:"MacBook Air M3 13.3 inch 515/8GB",
-        image:"https://th.bing.com/th?id=OIF.0Gaf1Iqax%2b6meTzxfC1DZA&w=183&h=184&c=7&r=0&o=5&dpr=1.5&pid=1.7",
+        image:"https://tinyurl.com/2u593wmh",
         new_price:"135,000",
         old_price:"145,000",
         details:"13.6 inch 256GB/8GB",
